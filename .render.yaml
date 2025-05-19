@@ -1,1 +1,10 @@
+services:
+  - type: web
+    name: mon-app-php
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    autoDeploy: true
+    rootDir: ./
 
