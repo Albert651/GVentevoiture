@@ -2,7 +2,7 @@
 
 try{
 
-		$bdd=new PDO('mysql:host=localhost;dbname=dbventevoiture','root','');
+		$bdd=new PDO('mysql:host=interchange.proxy.rlwy.net;dbname=railway','root','LXeaeexzhJMvNcEveEhAcQNWGiuLKzme');
 	}
 	catch(exeption $e)
 	{
