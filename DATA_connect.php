@@ -1,7 +1,12 @@
 <?php
+$host = 'interchange.proxy.rlwy.net';
+$user = 'root';
+$password = 'LXeaeexzhJMvNcEveEhAcQNWGiuLKzme';
+$database = 'railway';
 
-    mysqli_connect("interchange.proxy.rlwy.net", "root", "LXeaeexzhJMvNcEveEhAcQNWGiuLKzme", "railway");
+$conn = mysqli_connect($host, $user, $password, $database);
 
-    if(!$connex)die(mysqli_error($connex));
-
+if (!$conn) {
+    die("Échec de la connexion : " . mysqli_connect_error());
+}
 ?>
