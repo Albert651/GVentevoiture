@@ -1,5 +1,5 @@
 <?php
-$host = 'interchange.proxy.rlwy.net';
+$host = '35.225.xxx.xxx'; // ← l’IP publique donnée par Railway
 $user = 'root';
 $password = 'LXeaeexzhJMvNcEveEhAcQNWGiuLKzme';
 $database = 'railway';
