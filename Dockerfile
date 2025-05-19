@@ -1,13 +1,13 @@
 # Utilise l'image officielle PHP avec Apache
 FROM php:8.2-apache
 
-# Installe l'extension mysqli
-RUN docker-php-ext-install mysqli
+# Installe les extensions nécessaires pour MySQL
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
-# Active le module rewrite d’Apache si tu en as besoin (ex: pour des routes propres)
+# Active le module rewrite d’Apache
 RUN a2enmod rewrite
 
-# Copie les fichiers de ton projet dans le dossier du serveur Apache
+# Copie les fichiers dans le dossier du serveur Apache
 COPY . /var/www/html/
 
 # Donne les bons droits
