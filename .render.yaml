@@ -1,10 +1,7 @@
 services:
   - type: web
-    name: mon-app-php
-    env: php
+    name: vente-voiture
+    env: docker
     plan: free
-    buildCommand: ""
-    startCommand: ""
+    dockerfilePath: Dockerfile
     autoDeploy: true
-    rootDir: ./
-
