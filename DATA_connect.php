@@ -1,6 +1,6 @@
 <?php
 
-    $connex = mysqli_connect("localhost","root","","dbventevoiture");
+    mysqli_connect("interchange.proxy.rlwy.net", "root", "LXeaeexzhJMvNcEveEhAcQNWGiuLKzme", "railway");
 
     if(!$connex)die(mysqli_error($connex));
 
