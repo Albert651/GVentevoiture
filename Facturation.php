@@ -59,7 +59,7 @@ $donnees = $requete->fetchAll();
 <main>
   <div class="NAV d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
     <ul class="nav nav-pills flex-column mb-auto">
-      <li><img src="Images/logo.png" class="GestionLogo rounded rounded-circle img-fluid " alt="Client" width="200" height="200"></li>
+      <li><img src="/Images/Logo.png" class="GestionLogo rounded rounded-circle img-fluid " alt="Client" width="200" height="200"></li>
       <li >
         <a href="Dashboard.php" class="nav-link text-white " aria-current="page">
           <svg class="bi me-2 " width="16" height="16"><use xlink:href="#home"></use></svg>
